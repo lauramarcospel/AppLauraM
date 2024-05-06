@@ -1,11 +1,24 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue"
+
+import NavBar from "./components/NavBar.vue"
+import HeaderSections from "./components/HeaderSections.vue";
+import FeatureSections from "./components/FeatureSections.vue"
+import TestiMonials from "./components/TestiMonials.vue";
+import StaTs from "./components/StaTs.vue";
+import TeamSections from "./components/TeamSection.vue";
+import NavBar2 from "./components/NavBar2.vue"
+import NavBar3 from "./components/NavBar3.vue"
 </script>
 
 <template>
- <h1 class="font-bold text-xl text-red-600 underline">
-    Hello world!
-  </h1> 
-  <HelloWorld />
+ <NavBar />
+ <HeaderSections />
+ <NavBar2 />
+ <FeatureSections />
+ <NavBar3 />
+ <TestiMonials />
+ <StaTs />
+ <TeamSections />
 </template>
+import NavBar2 from "./components/NavBar2.vue";
 
